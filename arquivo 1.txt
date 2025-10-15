@@ -1,2 +1,55 @@
-oi
-testando
+Aqui está uma tabela de comandos passo a passo para subir (push) um código para um repositório no GitHub:
+1
+
+git init
+
+Inicializa um repositório Git local
+___________________________________
+
+2
+
+git add . ou git add nome_do_arquivo
+
+Adiciona as alterações ao índice
+___________________________________
+
+3
+
+git commit -m "Sua mensagem de commit"
+
+Cria um commit com uma mensagem descritiva
+___________________________________
+
+4
+
+git branch -M main
+
+Renomeia a branch principal (opcional)
+___________________________________
+
+5
+
+git remote add origin URL_DO_REPOSITORIO
+
+Adiciona o repositório remoto como origem
+___________________________________
+
+6
+
+git push -u origin main ou git push -u origin nome_da_sua_branch
+
+Envia o código para o GitHub
+___________________________________
+
+7
+
+Digite seu nome de usuário e senha do GitHub, se solicitado
+
+Faça login no GitHub, se necessário
+___________________________________
+
+8
+
+Faça login no GitHub, se necessário
+
+As alterações devem aparecer no seu repositório no GitHub
